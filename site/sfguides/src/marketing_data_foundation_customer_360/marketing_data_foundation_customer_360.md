@@ -13,23 +13,23 @@ tags: Marketing, Data Engineering, Native Application
 
 Duration: 15
 
-Customers looking to use Snowflake for marketing use cases initially face a significant challenge: it is difficult to import all relevant marketing data into Snowflake and structure it in a unified format that downstream applications can easily utilize to power data-driven marketing.
+Customers looking to use Snowflake for marketing use cases initially face a significant challenge, it is difficult to import all relevant marketing data into Snowflake and structure it in a unified format that downstream applications can easily utilize to power data-driven marketing.
 
 This starter solution tackles this challenge of creating a marketing data foundation for customer 360.
 This is part of the overall [Marketing Data Foundation Starter]() solution.
 
 ### Problem Space
 
-The Customer 360 challenge revolves around creating a unified, comprehensive view of a person, whether a customer or prospect. This endeavor involves aggregating and synthesizing data from a multitude of touchpoints and interactions customers have with a brand, including online behaviors, transaction histories, and customer service experiences. The main challenge is data siloing and integration, as information often resides in disparate systems, making it difficult to achieve a singular, holistic view of the customer.
+The Customer 360 challenge revolves around creating a unified and comprehensive view of a person, whether a customer or prospect. This endeavor involves aggregating and synthesizing data from a multitude of touchpoints and interactions that customers have with a brand, including online behaviors, transaction histories, and customer service experiences. The main challenge is data siloing and integration, as information often resides in disparate systems, making it difficult to achieve a singular, and holistic view of the customer.
 
-More specifically, Customer 360 includes the following data types:
+More precisely, Customer 360 includes the following data types:
 
 * <b>Demographic Data:</b> Information such as age, gender, income, education, and marital status that helps in segmenting the customer base.<br>
-* <b>Transactional Data:</b> Records of customer purchases, returns, and exchanges, including details like transaction amounts, product categories, and purchase history.<br>
-* <b>Behavioral Data:</b> Data on customer interactions with the brand, including website visits, app usage, click-through rates, and engagement with marketing and loyalty campaigns.<br>
+* <b>Transactional Data:</b> Records of customer purchases, returns, and exchanges; including details like transaction amounts, product categories, and purchase history.<br>
+* <b>Behavioral Data:</b> Data on customer interactions with the brand, including: website visits, app usage, click-through rates, and engagement with marketing and loyalty campaigns.<br>
 * <b>Engagement Data:</b> Details of how customers engage with the brand through various channels, such as email open rates, social media interactions, and customer service inquiries.<br>
 * <b>Psychographic Data:</b> Insights into the customer's lifestyle, interests, attitudes, and opinions, often gathered through surveys, feedback forms, and social media analysis.<br>
-* <b>Customer Feedback:</b> Direct feedback from customers, including Net Promoter Score (NPS) surveys, customer satisfaction surveys, reviews, and complaints.
+* <b>Customer Feedback:</b> Direct feedback from customers, including: Net Promoter Score (NPS) surveys, customer satisfaction surveys, reviews, and complaints.
 
 The actual source systems for this data includes:
 
@@ -37,18 +37,18 @@ The actual source systems for this data includes:
 * <b>E-commerce Platforms:</b> These provide transactional and behavioral data, detailing customer purchase patterns, browsing history, and product preferences. (E.g., Shopify, Magento (Adobe Commerce), WooCommerce)<br>
 * <b>Social Media Platforms:</b> Social media interactions, sentiments, and engagement metrics offer valuable insights into customer preferences and behavior. (E.g., Facebook Insights, Twitter Analytics, LinkedIn Analytics)<br>
 * <b>Website and Mobile Analytics:</b> Tools like these provide data on website and app usage, including page views, session duration, bounce rates, and user navigation paths. (E.g., Google Analytics, Adobe Analytics, Mixpanel)<br>
-* <b>Email Marketing Tools:</b> These tools track engagement metrics such as email open rates, click-through rates, and conversion rates from email campaigns. (E.g., Mailchimp, Constant Contact, SendGrid (Twilio SendGrid))<br>
+* <b>Email Marketing Tools:</b> These tools track engagement metrics such as: email open rates, click-through rates, and conversion rates from email campaigns. (E.g., Mailchimp, Constant Contact, SendGrid (Twilio SendGrid))<br>
 * <b>Customer Service Platforms:</b> Data from customer service interactions, including support tickets, chat transcripts, and call logs, provide insights into customer issues, preferences, and feedback. (E.g., Zendesk, Salesforce Service Cloud, Freshdesk)<br>
 * <b>Survey Tools and Feedback Platforms:</b> These sources capture direct customer feedback, opinions, and satisfaction levels, which are crucial for understanding customer sentiment. (E.g., SurveyMonkey, Qualtrics, Google Forms)<br>
 * <b>Point of Sale (POS) Systems:</b> For brick-and-mortar operations, POS systems capture in-store transactions, returns, and customer interactions. (E.g., Square, Clover, Lightspeed)<br>
 
-Data privacy and security are paramount concerns in building a Customer 360 view. With increasing scrutiny on how companies collect, store, and use customer data, navigating privacy regulations such as GDPR and CCPA becomes a complex but critical task. This involves ensuring all customer data is handled in a compliant manner, balancing the need for insightful analytics with the imperative of protecting customer privacy.
+Data privacy and security are paramount concerns in building a Customer 360 view. With increasing scrutiny on how companies collect, store, and use customer data; navigating privacy regulations such as GDPR and CCPA becomes a complex but critical task. This involves ensuring all customer data is handled in a compliant manner, balancing the need for insightful analytics with the imperative of protecting customer privacy.
 
 ### Solution Space
 
 #### Context
 
-As described in the diagram below, the two Data Foundation use cases in this starter lay the groundwork to support the two Marketing Execution use cases: Planning & Activation, and Measurement.
+As described in the diagram below, the use case in this starter lay the foundation to support the two Marketing Execution use cases: Planning & Activation, and Measurement.
 
 ![usecase](assets/context.png)
 
@@ -187,7 +187,7 @@ snow app run
 ## Conclusion
 Duration: 1
 
-Congratulations! You have successfully learnt how to easily build an end to end Native Application and loading sample data. 
+Congratulations! You have successfully learn how to easily build an end to end Native Application and load some sample data. 
 
 You will see your application listed in your account:
 ![](assets/ApplicationListed.png)
@@ -197,9 +197,9 @@ If you open the app and navigate to the the Customer 360 starter tab, you will s
 
 ### What you learned
 
-* How to host build a basic native app for Customer 360 Marketing data.
+* How to host and build and basic native app for Customer 360 Marketing data.
 * Generate a set of views that aggregate data from Marketing providers like Google and Salesforce.
-* Generate quick summaries and Charts using that data to create an integrated dashboard using streamlit.
+* Generate quick summaries and charts using that data to create an integrated dashboard using Streamlit.
 
 
 ### Related Resources
